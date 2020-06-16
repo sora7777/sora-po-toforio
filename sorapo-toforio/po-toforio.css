@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header {
+    background-image: url(sora.image/aditya-joshi-wG923J9naFQ-unsplash.jpg);
+    background-size: cover;
+}
+.div-1 {
+    background-image: url(sora.image/lukas-bato-BAhBnhkbVuU-unsplash.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.267);
+    padding: 20px;
+}
+.div-2 p,.div-3 p {
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.div-1 p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+.div-1 a {
+    color: black;  transition: 0.5s;
+    margin: 0 2px;
+}
+.div-1 a:hover {
+    color: rgb(36, 200, 241);
+    transform: scale3d(1.03, 1.03, 1.03);
+    display: inline-block;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.267);
+}
+.r-1 {
+    color: rgb(255, 0, 0);
+    opacity: 0.8;
+}
+.r-2 {
+    color: rgb(255, 136, 0);
+    opacity: 0.8;
+}
+.r-3 {
+    color: rgb(217, 255, 0);
+    opacity: 0.8;
+}
+.r-4 {
+    color: rgb(51, 255, 0);
+    opacity: 0.8;
+}
+.r-5 {
+    color: rgb(0, 174, 255);
+    opacity: 0.8;
+}
+.r-6 {
+    color: rgb(0, 4, 255);
+    opacity: 0.8;
+}
+.r-7 {
+    color: rgb(204, 0, 255);
+    opacity: 0.8;
+}.r-8 {
+    color: rgb(255, 0, 191);
+    opacity: 0.8;
+}
+h2 {
+    color: rgba(0, 0, 0, 0.708);
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Osaka',sans-serif;
+    font-weight: normal;
+}
+.div-2 {
+    position: relative;
+    padding: 20px;
+    
+}
+
+
+.div-2 .soccer{
+    float: right;
+}
+.pubg {
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+.heading-2 {
+    font-size: 40px;
+}
+.p-1{
+    width: 40%;
+    float: right;
+}
+.p-2 {
+    width: 40%;
+}
+.div-2 h2, .div-3 h2 {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-image: url(sora.image/clarisse-meyer-xXiKQ2AavlY-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: 0% 70%;
+}
+.fa-futbol {
+    margin-top: 200px;
+}
+#click {
+    margin-left: 70px;
+    margin-top: 100px;
+    letter-spacing: 4px;
+}
+footer h1:hover {
+    transform: rotateZ(370deg);
+}
+.soccer-js{
+    transition: 0.4s;
+    opacity: 0;
+}
+
+  
+
+.footer-h1:hover > a > i{
+    transition: 2s;
+    color: rgb(0, 204, 255);
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.profile {
+    margin-bottom: 50px;
+}
+.profile li {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.581);
+}
+.profile p {
+    font-size: 27px;
+    color: rgb(111, 0, 255);
+}
+.profile-1 {
+    float: left;
+    margin-right: 100px;
+}

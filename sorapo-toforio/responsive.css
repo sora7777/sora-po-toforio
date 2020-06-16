@@ -1,0 +1,124 @@
+@media screen and (max-width: 414px) {
+    header h1 {
+        font-size: 30px;
+    }
+    main{
+        margin: 0 10px;
+    }
+    footer h1 {
+        font-size: 10px;
+    }
+    .profile p{
+        font-size: 22px;
+    }
+    .my-profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-1 h2, .div-2 h2, .div-3 h2 {
+        font-size: 26px;
+    }
+    .p-1, .p-2{
+        width: 100%;
+    }
+    .my-profile li {
+        margin-left: 20px;
+    }
+    .pubg {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .soccer {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .div-4{
+        padding-top: 30px;
+    }
+    #click{
+        display: none;
+    }
+    .fa-futbol {
+        display: none;
+    }
+    .div-3 {
+        margin-top: 100px;
+    }
+    .div-5 {
+        margin-top: 100px;
+    }
+    .heading-2 {
+        margin-top: 100px;
+    }
+    .my-profile {
+        margin-bottom: 100px;
+    }.pp {
+        margin: 100px 0;
+    }
+    footer h1 {
+        display: none;
+    }
+    footer {
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+    }
+    footer a ,footer i{
+        display: block;
+    }
+    .a-2 {
+        font-size: 40px;
+        position: absolute;
+        left: 170px;
+        top: 60px;
+        color: rgb(0, 204, 255); 
+        transform: rotate3d(2, -1, 0, 60deg);
+        opacity: 0.8;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 415px) {
+    .profile{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 769px) {
+    header h1{
+        font-size: 50px;
+    }
+    main{
+        margin: 0 200px;
+    }
+    header {
+        padding: 50px 0;
+    }
+    .soccer {
+        height: 300px;
+        width: 500px;
+    }
+    .pubg{
+        height: 300px;
+        width: 500px;
+    }
+    .div-4 {
+        padding-top: 150px;
+    }
+    .div-3 {
+        margin-top: 300px;
+    }.div-5 {
+        margin-top: 150px;
+    }
+    .heading-2 {
+        margin-top: 200px;
+    }
+    .pp {
+        margin-top: 50px; margin-bottom: 50px;
+    }
+    .a-2 {
+        display: none;
+    }
+    footer i{
+        color: rgb(255, 255, 255); font-size: 140px;
+    }
+}
